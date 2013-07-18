@@ -20,7 +20,7 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
-     [TestFlight takeOff:@"e2441ca5-dd4f-49d7-a5ce-78bd60448645"];
+     [TestFlight takeOff:@"af6f1bad-4f26-4c0e-b3dc-44dfac5f41f8"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

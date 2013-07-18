@@ -13,7 +13,11 @@
 @end
 
 @implementation ViewController
-
+-(IBAction)showalert:(id)sender
+{
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hello" message:@"Have a Nice Day" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alert show];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
